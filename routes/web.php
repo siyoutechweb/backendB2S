@@ -150,12 +150,12 @@ $router->group(['prefix' => 'commissions'], function () use ($router) {
 });
 $router->group(['prefix' => 'siyoucommissions'], function () use ($router) {
     $router->post('/', ['uses' => 'SiyouCommissionsController@addCommission']);
-    $router->put('/{id}', ['uses' => 'SiyouCommissionsController@updateCommission']);
-    $router->delete('/{id}', ['uses' => 'SiyouCommissionsController@DeleteCommission']);
-    $router->get('/{id}', ['uses' => 'SiyouCommissionsController@GetCommission']);
     $router->get('/supplier', ['uses' => 'SiyouCommissionsController@GetsupplierCommission']);
     $router->get('/', ['uses' => 'SiyouCommissionsController@GetCommissionlist']);
     $router->put('/UpdateDeposit/{supplier_id}', ['uses' => 'SiyouCommissionsController@UpdateDeposit']);
+    $router->put('/{id}', ['uses' => 'SiyouCommissionsController@updateCommission']);
+    $router->delete('/{id}', ['uses' => 'SiyouCommissionsController@DeleteCommission']);
+    $router->get('/{id}', ['uses' => 'SiyouCommissionsController@GetCommission']);
 });
 $router->group(['prefix' => 'funds'], function () use ($router) {
     $router->get('/', ['uses' => 'fund\FundsController@FundsList']);
