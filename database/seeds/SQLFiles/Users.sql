@@ -1,0 +1,6 @@
+INSERT INTO `users` (`id`,`first_name`,`last_name`,`email`,`password`,`role_id`,`supplier_id`) VALUES (1,'Siyou','Technology','manager@siyoutech.tn','$2y$10$74HLmu5fsmAq96gmtTZFTOnuoe4083kcXonHGqi02SDs4JbMyreZ.',2,NULL);
+INSERT INTO `users` (`id`,`first_name`,`last_name`,`email`,`password`,`role_id`,`supplier_id`) VALUES (2,'supplier','supplier','supplier@siyoutech.tn','$2y$10$AoF30.I.8j3tE559fzvUh.7v/xK44Es4xosvQ66o9nZGjEgGc3Kvm',2,NULL);
+INSERT INTO `users` (`id`,`first_name`,`last_name`,`email`,`password`,`role_id`,`supplier_id`) VALUES (3,'Siyou','shop','shop@siyoutech.tn','$2y$10$XnUBZb96fY/fja7Nn1QtQOUm4pR7NQmpEgjmFmhoJYFvKCqKQ.ME.',3,NULL);
+INSERT INTO `users` (`id`,`first_name`,`last_name`,`email`,`password`,`role_id`,`supplier_id`) VALUES (4,'siyou','technology','siyou@outlook.fr','$2y$10$IHKA.o1A68ji8oVNRI.Yz.13qWIloFXI19OTlCKKTls3zcP47gAxG',5,NULL);
+INSERT INTO `users` (`id`,`first_name`,`last_name`,`email`,`password`,`role_id`,`supplier_id`) VALUES (5,'Sales','Manager','salesmanager@outlook.fr','$2y$10$pwoZuZWEWovUL9axpw0hQuStuupmKlIvQpsdP70lj0RfFE.eyYe.K',1,NULL);
+INSERT INTO `users` (`id`,`first_name`,`last_name`,`email`,`password`,`role_id`,`supplier_id`) VALUES (6,'test01','sales manager','info@siyoutechnology.com','$2y$10$d.d7rFDOrYnsIBwpWSJyGegl6LEpNNLyl9y/uVXK8QCsjBNgB59Du',1,NULL);
